@@ -167,9 +167,10 @@
 /dev/socket/hidl2touchdaemon_server                                u:object_r:oplus_touchdaemon_socket:s0
 /dev/tcm_hbp0                                                      u:object_r:oplus_touchdaemon_device:s0
 /dev/tcm1                                                          u:object_r:oplus_touchdaemon_device:s0
-/dev/tp_misc(/.*)?                                                 u:object_r:oplus_touchdaemon_device:s0
-/dev/tp_misc1  
-# Ultrasound
+/dev/tp_misc(/.*)?                                                 u:object_r:oplus_touchdaemon_device:s0 
+/dev/tp_misc1                                                      u:object_r:oplus_touchdaemon_device:s0
+  
+# Ultrasound                                                       
 /dev/audio_ultrasound     u:object_r:ultrasound_device:s0
 /dev/sensor_ultrasound    u:object_r:ultrasound_device:s0
 
